@@ -5,3 +5,182 @@
 soong_namespace {
 }
 
+android_app_import {
+	name: "QtiTelephonyService",
+	owner: "blackberry",
+	apk: "proprietary/app/QtiTelephonyService/QtiTelephonyService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "WfdService",
+	owner: "blackberry",
+	apk: "proprietary/app/WfdService/WfdService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "ims",
+	owner: "blackberry",
+	apk: "proprietary/app/ims/ims.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "qcrilmsgtunnel",
+	owner: "blackberry",
+	apk: "proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "CABLService",
+	owner: "blackberry",
+	apk: "proprietary/vendor/app/CABLService/CABLService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
+	name: "DDRTest",
+	owner: "blackberry",
+	apk: "proprietary/vendor/app/DDRTest/DDRTest.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
+	name: "QDMA-UI",
+	owner: "blackberry",
+	apk: "proprietary/vendor/app/QDMA-UI/QDMA-UI.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
+	name: "QDMA",
+	owner: "blackberry",
+	apk: "proprietary/vendor/app/QDMA/QDMA.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
+	name: "QFingerprintService",
+	owner: "blackberry",
+	apk: "proprietary/vendor/app/QFingerprintService/QFingerprintService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
+	name: "SVIService",
+	owner: "blackberry",
+	apk: "proprietary/vendor/app/SVIService/SVIService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
+	name: "SecProtect",
+	owner: "blackberry",
+	apk: "proprietary/vendor/app/SecProtect/SecProtect.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
+	name: "TimeService",
+	owner: "blackberry",
+	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
+	name: "aptxui",
+	owner: "blackberry",
+	apk: "proprietary/vendor/app/aptxui/aptxui.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
+	name: "colorservice",
+	owner: "blackberry",
+	apk: "proprietary/vendor/app/colorservice/colorservice.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+dex_import {
+	name: "qti-vzw-ims-internal",
+	owner: "blackberry",
+	jars: ["proprietary/vendor/framework/qti-vzw-ims-internal.jar"],
+	soc_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.alarm-V1.0-java",
+	owner: "blackberry",
+	jars: ["proprietary/vendor/framework/vendor.qti.hardware.alarm-V1.0-java.jar"],
+	soc_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.factory-V1.0-java",
+	owner: "blackberry",
+	jars: ["proprietary/vendor/framework/vendor.qti.hardware.factory-V1.0-java.jar"],
+	soc_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.sensorscalibrate-V1.0-java",
+	owner: "blackberry",
+	jars: ["proprietary/vendor/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar"],
+	soc_specific: true,
+}
+

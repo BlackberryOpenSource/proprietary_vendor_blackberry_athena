@@ -6,9 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/blackberry/athena
 
 PRODUCT_COPY_FILES += \
-    vendor/blackberry/athena/proprietary/app/QtiTelephonyService/QtiTelephonyService.apk:$(TARGET_COPY_OUT_SYSTEM)/app/QtiTelephonyService/QtiTelephonyService.apk \
-    vendor/blackberry/athena/proprietary/app/WfdService/WfdService.apk:$(TARGET_COPY_OUT_SYSTEM)/app/WfdService/WfdService.apk \
-    vendor/blackberry/athena/proprietary/app/ims/ims.apk:$(TARGET_COPY_OUT_SYSTEM)/app/ims/ims.apk \
     vendor/blackberry/athena/proprietary/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM)/bin/dpmd \
     vendor/blackberry/athena/proprietary/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/mm-qcamera-daemon \
     vendor/blackberry/athena/proprietary/bin/qvrservice:$(TARGET_COPY_OUT_SYSTEM)/bin/qvrservice \
@@ -200,18 +197,7 @@ PRODUCT_COPY_FILES += \
     vendor/blackberry/athena/proprietary/lib64/vendor.qti.hardware.wifi.keystore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.wifi.keystore@1.0.so \
     vendor/blackberry/athena/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/blackberry/athena/proprietary/lib64/vndk-sp/android.hidl.base@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vndk-sp/android.hidl.base@1.0.so \
-    vendor/blackberry/athena/proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:$(TARGET_COPY_OUT_SYSTEM)/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
     vendor/blackberry/athena/proprietary/vendor/[SYS]/Journal:$(TARGET_COPY_OUT_VENDOR)/[SYS]/Journal \
-    vendor/blackberry/athena/proprietary/vendor/app/CABLService/CABLService.apk:$(TARGET_COPY_OUT_VENDOR)/app/CABLService/CABLService.apk \
-    vendor/blackberry/athena/proprietary/vendor/app/DDRTest/DDRTest.apk:$(TARGET_COPY_OUT_VENDOR)/app/DDRTest/DDRTest.apk \
-    vendor/blackberry/athena/proprietary/vendor/app/QDMA-UI/QDMA-UI.apk:$(TARGET_COPY_OUT_VENDOR)/app/QDMA-UI/QDMA-UI.apk \
-    vendor/blackberry/athena/proprietary/vendor/app/QDMA/QDMA.apk:$(TARGET_COPY_OUT_VENDOR)/app/QDMA/QDMA.apk \
-    vendor/blackberry/athena/proprietary/vendor/app/QFingerprintService/QFingerprintService.apk:$(TARGET_COPY_OUT_VENDOR)/app/QFingerprintService/QFingerprintService.apk \
-    vendor/blackberry/athena/proprietary/vendor/app/SVIService/SVIService.apk:$(TARGET_COPY_OUT_VENDOR)/app/SVIService/SVIService.apk \
-    vendor/blackberry/athena/proprietary/vendor/app/SecProtect/SecProtect.apk:$(TARGET_COPY_OUT_VENDOR)/app/SecProtect/SecProtect.apk \
-    vendor/blackberry/athena/proprietary/vendor/app/TimeService/TimeService.apk:$(TARGET_COPY_OUT_VENDOR)/app/TimeService/TimeService.apk \
-    vendor/blackberry/athena/proprietary/vendor/app/aptxui/aptxui.apk:$(TARGET_COPY_OUT_VENDOR)/app/aptxui/aptxui.apk \
-    vendor/blackberry/athena/proprietary/vendor/app/colorservice/colorservice.apk:$(TARGET_COPY_OUT_VENDOR)/app/colorservice/colorservice.apk \
     vendor/blackberry/athena/proprietary/vendor/applist/defaultApplistJson:$(TARGET_COPY_OUT_VENDOR)/applist/defaultApplistJson \
     vendor/blackberry/athena/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/blackberry/athena/proprietary/vendor/bin/DR_AP_Service:$(TARGET_COPY_OUT_VENDOR)/bin/DR_AP_Service \
@@ -1063,10 +1049,6 @@ PRODUCT_COPY_FILES += \
     vendor/blackberry/athena/proprietary/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mdt \
     vendor/blackberry/athena/proprietary/vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini \
     vendor/blackberry/athena/proprietary/vendor/firmware/wlan/qca_cld/wlan_mac.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/wlan_mac.bin \
-    vendor/blackberry/athena/proprietary/vendor/framework/qti-vzw-ims-internal.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qti-vzw-ims-internal.jar \
-    vendor/blackberry/athena/proprietary/vendor/framework/vendor.qti.hardware.alarm-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/vendor.qti.hardware.alarm-V1.0-java.jar \
-    vendor/blackberry/athena/proprietary/vendor/framework/vendor.qti.hardware.factory-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/vendor.qti.hardware.factory-V1.0-java.jar \
-    vendor/blackberry/athena/proprietary/vendor/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar \
     vendor/blackberry/athena/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
     vendor/blackberry/athena/proprietary/vendor/lib/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl.so \
     vendor/blackberry/athena/proprietary/vendor/lib/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.3-impl.so \
@@ -3744,3 +3726,23 @@ PRODUCT_COPY_FILES += \
     vendor/blackberry/athena/proprietary/vendor/package/CTA/system/vendor/vendor.prop:$(TARGET_COPY_OUT_VENDOR)/package/CTA/system/vendor/vendor.prop \
     vendor/blackberry/athena/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
     vendor/blackberry/athena/proprietary/vendor/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc
+
+PRODUCT_PACKAGES += \
+    QtiTelephonyService \
+    WfdService \
+    ims \
+    qcrilmsgtunnel \
+    CABLService \
+    DDRTest \
+    QDMA-UI \
+    QDMA \
+    QFingerprintService \
+    SVIService \
+    SecProtect \
+    TimeService \
+    aptxui \
+    colorservice \
+    qti-vzw-ims-internal \
+    vendor.qti.hardware.alarm-V1.0-java \
+    vendor.qti.hardware.factory-V1.0-java \
+    vendor.qti.hardware.sensorscalibrate-V1.0-java
