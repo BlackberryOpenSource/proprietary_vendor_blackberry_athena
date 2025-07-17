@@ -210,7 +210,6 @@ PRODUCT_COPY_FILES += \
     vendor/blackberry/athena/proprietary/lib64/vendor.qti.hardware.wifi.keystore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.wifi.keystore@1.0.so \
     vendor/blackberry/athena/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/blackberry/athena/proprietary/lib64/vndk-sp/android.hidl.base@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vndk-sp/android.hidl.base@1.0.so \
-    vendor/blackberry/athena/proprietary/vendor/[SYS]/Journal:$(TARGET_COPY_OUT_VENDOR)/[SYS]/Journal \
     vendor/blackberry/athena/proprietary/vendor/applist/defaultApplistJson:$(TARGET_COPY_OUT_VENDOR)/applist/defaultApplistJson \
     vendor/blackberry/athena/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/blackberry/athena/proprietary/vendor/bin/DR_AP_Service:$(TARGET_COPY_OUT_VENDOR)/bin/DR_AP_Service \
@@ -929,6 +928,13 @@ PRODUCT_COPY_FILES += \
     vendor/blackberry/athena/proprietary/vendor/etc/seccomp_policy/configstore@1.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/configstore@1.0.policy \
     vendor/blackberry/athena/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     vendor/blackberry/athena/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
+    vendor/blackberry/athena/proprietary/vendor/etc/selinux/nonplat_file_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/nonplat_file_contexts \
+    vendor/blackberry/athena/proprietary/vendor/etc/selinux/nonplat_hwservice_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/nonplat_hwservice_contexts \
+    vendor/blackberry/athena/proprietary/vendor/etc/selinux/nonplat_mac_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/nonplat_mac_permissions.xml \
+    vendor/blackberry/athena/proprietary/vendor/etc/selinux/nonplat_property_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/nonplat_property_contexts \
+    vendor/blackberry/athena/proprietary/vendor/etc/selinux/nonplat_seapp_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/nonplat_seapp_contexts \
+    vendor/blackberry/athena/proprietary/vendor/etc/selinux/nonplat_sepolicy.cil:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/nonplat_sepolicy.cil \
+    vendor/blackberry/athena/proprietary/vendor/etc/selinux/nonplat_service_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/nonplat_service_contexts \
     vendor/blackberry/athena/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/blackberry/athena/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/blackberry/athena/proprietary/vendor/etc/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths.xml \
